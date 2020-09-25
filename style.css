@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./bg.jpg);
+    height: rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.uli ul li a:hover{
+    border: 1px solid orange;
+    border-radius: 2px;
+    background-color:orange;
+}
+.bt button{
+    height: 2.5rem;
+    width: 25rem;
+    border: 1px solid orange;
+    border-radius: 20px;
+margin-top: 2rem;
+padding-bottom: 10px;
+margin-bottom: 2rem;
+}
+.bt{
+    margin-bottom: rem;
+    justify-content: center;
+}
+.gri{
+    background-color:gainsboro;
+}
+.back{
+    height: 25rem;
+    background-image: url(./veg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ba{
+    height: 25rem;
+    background-image: url(./pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+input{
+    height: 3rem;
+    width: 18rem;
+    border-radius: 30px;
+    border: none;
+}
+.bton{
+height: 2rem;
+width: 5rem;
+border-radius: 30px;
+background-color: orange;
+color: white;
+border: none;
+margin-left: -6rem;
+}
+.so ul li a{
+    border: 1px solid orange;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 30px;
+margin: 5px;
+padding: 0.5rem;
+color: orange;
+
+}
+.so ul li a:hover{
+    color: white;
+    background-color: orange;
+}
+.so{
+    margin-top: 2rem;
+}
